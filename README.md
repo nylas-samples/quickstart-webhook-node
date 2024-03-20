@@ -1,7 +1,10 @@
 # How to run
 
 This repo contains functionality to complete two tasks:
-- **Backend Server**: A  server that will receive a request from Nylas to confirm the server endpoint is active prior to activate a Nylas Webhook. Note the backend server must be publicly available for Nylas to call, so it needs to be hosted on a service. It can be hosted locally, however, running a proxy server has been problematic due as the proxy server may restrict free use of webhook creation.
+- **Backend Server**: A  server that will receive a request from Nylas to confirm the server endpoint is online prior to activativating a Nylas Webhook. Note the backend server must be publicly available for Nylas to call, so it needs to be hosted on a service. 
+
+The endpoint can be hosted locally, however, running a publicly available proxy/local server can be problematic as the proxy server may restrict or limit webhook creation.
+
 - **Nylas Webhook Create Script**:  The require code for creating a Nylas Webhook that can be run as a local script.
 
 1. Install all the packages using `npm i`
