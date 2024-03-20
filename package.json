@@ -1,0 +1,21 @@
+{
+  "name": "quickstart-webhook-node",
+  "version": "1.0.0",
+  "description": "This repo contains functionality to complete two tasks: - Backend Server: A  server that will receive a request from Nylas to confirm the server endpoint is active prior to activate a Nylas Webhook. Note the backend server must be publicly available for Nylas to call, so it needs to be hosted on a service. It can be hosted locally, however, running a proxy server has been problematic due as the proxy server may restrict free use of webhook creation. - Webhook Creation Script:  The require code for creating a Nylas Webhook that can be run as a local script.",
+  "main": "create-nylas-webhook.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "create-nylas-webhook": "node create-nylas-webhook.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.0",
+    "nylas": "^7.2.1"
+  }
+}
