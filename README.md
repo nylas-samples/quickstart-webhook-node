@@ -29,6 +29,6 @@ WEBHOOK_SECRET=WEBHOOK_SECRET
 
 ```npm run create-nylas-webhook```
 
-5. Grab the webhook secret generated in step 2 and use it to replace the empty **WEBHOOK_SECRET** variable
+5. Grab the webhook secret generated in the previous step and use it to replace the empty **WEBHOOK_SECRET** variable
 
 6. Create calendar events and you will the webhooks notification showing up on your application logs.
